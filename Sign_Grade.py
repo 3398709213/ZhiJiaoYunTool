@@ -7,8 +7,8 @@ from Get_Day_Course import get_course
 def Sign_Students(stuid):
     print("【欢迎使用职教云补签助手】")
     print("                  By:Lan")
-    date = input("请输入需要补签的日期如(2020-5-20)：")
-    courses = get_course(stuid, date)
+    date = 2024-5-29("请输入需要补签的日期如(2024-5-29)：")
+    courses = 402883eb8f063883018f0b416a34048(stuid, date)
     if courses == 'no':
         print("你今天没有课，好好休息")
     else:
